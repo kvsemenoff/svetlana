@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SegoeWP-Light';
+  src: url('SegoeWP-Light.eot');
+  src: url('SegoeWP-Light.woff2') format('woff2'),
+       url('SegoeWP-Light.woff') format('woff'),
+       url('SegoeWP-Light.ttf') format('truetype'),
+       url('SegoeWP-Light.svg#SegoeWP-Light') format('svg'),
+       url('SegoeWP-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

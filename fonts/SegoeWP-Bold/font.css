@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SegoeWP-Bold';
+  src: url('SegoeWP-Bold.eot');
+  src: url('SegoeWP-Bold.woff2') format('woff2'),
+       url('SegoeWP-Bold.woff') format('woff'),
+       url('SegoeWP-Bold.ttf') format('truetype'),
+       url('SegoeWP-Bold.svg#SegoeWP-Bold') format('svg'),
+       url('SegoeWP-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

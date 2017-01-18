@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SegoeWP-Black';
+  src: url('SegoeWP-Black.eot');
+  src: url('SegoeWP-Black.woff2') format('woff2'),
+       url('SegoeWP-Black.woff') format('woff'),
+       url('SegoeWP-Black.ttf') format('truetype'),
+       url('SegoeWP-Black.svg#SegoeWP-Black') format('svg'),
+       url('SegoeWP-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

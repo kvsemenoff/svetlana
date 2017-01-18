@@ -1,39 +1,78 @@
 @font-face {
-    font-family: "RobotoRegular";
-    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
-    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
-    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'SegoeWP';
+  src: url('../fonts/SegoeWP/SegoeWP.eot');
+  src: url('../fonts/SegoeWP/SegoeWP.woff2') format('woff2'),
+       url('../fonts/SegoeWP/SegoeWP.woff') format('woff'),
+       url('../fonts/SegoeWP/SegoeWP.ttf') format('truetype'),
+       url('../fonts/SegoeWP/SegoeWP.svg#SegoeWP') format('svg'),
+       url('../fonts/SegoeWP/SegoeWP.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-/* font-family: "RobotoLight"; */
+
 @font-face {
-    font-family: "RobotoLight";
-    src: url("../fonts/RobotoLight/RobotoLight.eot");
-    src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
-    url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'SegoeWP-Black';
+  src: url('../fonts/SegoeWP-Black/SegoeWP-Black.eot');
+  src: url('../fonts/SegoeWP-Black/SegoeWP-Black.woff2') format('woff2'),
+       url('../fonts/SegoeWP-Black/SegoeWP-Black.woff') format('woff'),
+       url('../fonts/SegoeWP-Black/SegoeWP-Black.ttf') format('truetype'),
+       url('../fonts/SegoeWP-Black/SegoeWP-Black.svg#SegoeWP-Black') format('svg'),
+       url('../fonts/SegoeWP-Black/SegoeWP-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-/* font-family: "RobotoMedium"; */
+
 @font-face {
-    font-family: "RobotoMedium";
-    src: url("../fonts/RobotoMedium/RobotoMedium.eot");
-    src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
-    url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'SegoeWP-Light';
+  src: url('../fonts/SegoeWP-Light/SegoeWP-Light.eot');
+  src: url('../fonts/SegoeWP-Light/SegoeWP-Light.woff2') format('woff2'),
+       url('../fonts/SegoeWP-Light/SegoeWP-Light.woff') format('woff'),
+       url('../fonts/SegoeWP-Light/SegoeWP-Light.ttf') format('truetype'),
+       url('../fonts/SegoeWP-Light/SegoeWP-Light.svg#SegoeWP-Light') format('svg'),
+       url('../fonts/SegoeWP-Light/SegoeWP-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-/* font-family: "RobotoBold"; */
+
 @font-face {
-    font-family: "RobotoBold";
-    src: url("../fonts/RobotoBold/RobotoBold.eot");
-    src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
-    url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'SegoeWP-Semibold';
+  src: url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.eot');
+  src: url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.woff2') format('woff2'),
+       url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.woff') format('woff'),
+       url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.ttf') format('truetype'),
+       url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.svg#SegoeWP-Semibold') format('svg'),
+       url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'SegoeWP-SemiLight';
+  src: url('../fonts/SegoeWP-SemiLight/SegoeWP-SemiLight.woff') format('woff'),
+       url('../fonts/SegoeWP-SemiLight/SegoeWP-SemiLight.ttf') format('truetype'),
+       url('../fonts/SegoeWP-SemiLight/SegoeWP-SemiLight.svg#SegoeWP-SemiLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SegoeWP-Semilight';
+  src: url('../fonts/SegoeWP-Semilight/SegoeWP-Semilight.eot');
+  src: url('../fonts/SegoeWP-Semilight/SegoeWP-Semilight.woff2') format('woff2'),
+       url('../fonts/SegoeWP-Semilight/SegoeWP-Semilight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SegoeWP-Bold';
+  src: url('../fonts/SegoeWP-Bold/SegoeWP-Bold.eot');
+  src: url('../fonts/SegoeWP-Bold/SegoeWP-Bold.woff2') format('woff2'),
+       url('../fonts/SegoeWP-Bold/SegoeWP-Bold.woff') format('woff'),
+       url('../fonts/SegoeWP-Bold/SegoeWP-Bold.ttf') format('truetype'),
+       url('../fonts/SegoeWP-Bold/SegoeWP-Bold.svg#SegoeWP-Bold') format('svg'),
+       url('../fonts/SegoeWP-Bold/SegoeWP-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
