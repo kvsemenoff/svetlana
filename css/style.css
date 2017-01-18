@@ -1,0 +1,24 @@
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(style5.css);
+@import url(fonts.css);
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+.button-1 {
+  display: inline-block;
+  padding: 5px 10px; }
+
+.section_padding {
+  padding: 25px 0px; }
+
+@media only screen and (min-width: 992px) {
+  .section_padding {
+    padding: 25px 0px; } }
+
+/*# sourceMappingURL=style.css.map */
