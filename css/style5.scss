@@ -1,9 +1,69 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.clear{
+	clear: both;
+}
+
+/*========price========*/
+
+.df-price_view{
+	text-align: center;
+	max-width: 371px;
+	width: 100%;
+	margin: 0 auto;
+}
+.df-price__bg-box_view{
+	background-image: url("../img/df-bg1.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 255px;		
+}
+.df-price__t1_view{
+	color:#ffffff;
+	font-size: 26px;
+	line-height: 80px;
+	font-family: 'SegoeWP';
+	display: block;
+}
+.df-price__t2_view{
+	font-family: 'SegoeWP-Bold';
+	color:#ffffff;
+	font-size: 32px;
+	line-height: 45px;
+	display: block;
+}
+.df-price__t3_view{
+	font-family: 'SegoeWP-SemiLight';
+	color:#ffffff;
+	font-size: 20px;
+	line-height: 85px;
+	display: block;
+}
+
+
+.df-price__textblock_view{
+	font-size: 26px;
+	color:#333333;
+	font-family: 'SegoeWP';
+	line-height: 48px;
+}
+.df-price__boxmiddle_view{
+	background-image: url("../img/df-arrow.png");
+	background-repeat: no-repeat;
+	background-position: top -10px center;
+	margin-top: 150px;
+	span{
+		font-size: 20px;
+		color:#333333;
+		font-family: 'SegoeWP';
+		line-height: 30px;
+		display: inline-block;
+	}
+}
+.df-price__input_view{
+
+}
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
