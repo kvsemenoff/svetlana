@@ -1,10 +1,109 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
 
+
+h1.contacts__title1 {
+	opacity: 0.1;
+	color: #333;
+	font-family: "SegoeWP-Bold";
+	font-size: 100px;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2.contacts__title2 {
+	color: #333;
+	font-family: "SegoeWP-Bold";
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: -60px;
+}
+
+.contacts__left {
+	background: #fbeff1;
+	float: left;
+	.contacts__left_list {
+		padding-left: 73px;
+		padding-top: 98px;
+		ul {
+		}
+		li:before {
+        
+		}
+	    li {
+            padding-bottom: 23px;
+            padding-top: 23px;             
+            span {
+            	padding-left: 40px;
+            }
+            a {
+                color: #333;	
+            }
+			color: #333;
+			font-family: "SegoeWP";
+			font-size: 26px;
+			font-weight: 400;             
+		}
+		li#vk {			
+			background: url("../img/dc-vk.png") no-repeat left center;
+	        padding-left: 15px;
+		}
+		li#mail {			
+			background: url("../img/dc-mail.png") no-repeat left center;
+	        padding-left: 15px;
+		}
+		li#phone {			
+			background: url("../img/dc-phone.png") no-repeat left center;
+	        padding-left: 15px;
+		}
+		li#instagram {			
+			background: url("../img/dc-instagram.png") no-repeat left center;
+	        padding-left: 15px;
+		}
+		li#skype {			
+			background: url("../img/dc-skype.png") no-repeat left center;
+	        padding-left: 15px;
+		}
+		li#be {			
+			background: url("../img/dc-be.png") no-repeat left center;
+	        padding-left: 15px;
+		}
+	}
+}
+
+.contacts__right {
+	float: left;
+	max-width: 800px;
+	border: 10px solid #1c48f4;
+	margin-left: -68px;
+	margin-top: 34px;
+    padding-left: 95px;
+    padding-right: 133px;
+	.contacts__right_questions_title {
+		padding-top: 83px;
+		font-family: 'SegoeWP-Bold';
+		color: #333;		
+		font-size: 32px;
+		font-weight: 700;
+	}
+	.contacts__right_questions_text {
+		font-family: 'SegoeWP';
+		color: #333;
+		font-family: SegoeWP;
+		font-size: 26px;
+		font-weight: 400;
+	}
+	input[type='text'] {
+ 		border-style: solid;
+  		border-width: 1px;
+  		width: 267px;
+  		height: 56px;
+  		float: left;
+	}
+	textarea {
+		resize: none;
+	}
+
+}
 
 @media only screen and (min-width : 320px) {
 }
