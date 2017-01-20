@@ -1,6 +1,6 @@
 <section class="section section_padding">
 	<div class="container">
-		<h1>Pricing Table</h1>
+		<h2 class="eng">Pricing Table</h2>
 		<h2>Стоимость реализации ваших идей</h2>
 		<div class="df-price df-price_view">
 			<div class="df-price__bg-box df-price__bg-box_view">
