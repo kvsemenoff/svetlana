@@ -6,6 +6,27 @@
 @import url(fonts.css);
 .clearfix::after { clear: both; content: ""; display: table; }
 
+.portfolio { padding-bottom: 50px; max-width: 1600px; margin: 0 auto; }
+.portfolio__slider { position: relative; }
+.portfolio__slider::before { content: ""; background: #fbeff1; width: 630px; height: 470px; position: absolute; right: 160px; top: 200px; }
+.portfolio .slide-wrap { width: 1070px; margin: 0 auto; outline: none; position: relative; }
+.portfolio .slide__img { width: 1000px; height: 508; padding: 50px 0; }
+.portfolio .slide__img-photo { width: 100%; min-height: 100%; height: auto; display: block; }
+.portfolio .slide .text { color: #333; border: 6px solid #1c48f3; padding: 50px 60px; max-width: 970px; margin: 0 auto; position: relative; }
+.portfolio .slide .text__descr { font-size: 20px; display: block; text-align: center; text-transform: capitalize; font-family: 'SegoeWP', arial, sans-serif; padding-bottom: 20px; }
+.portfolio .slide .text__title { font-size: 32px; text-align: center; position: relative; font-family: 'SegoeWP-Bold'; padding-bottom: 20px; }
+.portfolio .slide .text__title::before { content: ""; height: 3px; width: 56px; background: #fe918c; position: absolute; left: 50%; margin-left: -28px; bottom: 0; }
+.portfolio .slide .text__in { font-family: 'SegoeWP', arial, sans-serif; font-size: 26px; text-align: center; padding: 20px 0; }
+.portfolio .slide .text__about { display: block; text-align: center; font-size: 20px; font-family: 'SegoeWP', arial, sans-serif; }
+.portfolio .slide .text__link { display: block; position: absolute; width: 40px; height: 30px; right: 70px; bottom: 22px; background: url(../img/portfolio-text_ic.png) center no-repeat; outline: none; }
+.portfolio__link { text-align: center; margin-top: 80px; }
+.portfolio__link a { text-transform: uppercase; font-size: 20px; color: #333; font-family: 'SegoeWP-Semibold'; display: inline-block; padding-right: 50px; background: url(../img/arrow-right.png) center right no-repeat; }
+.portfolio .slick-slide { outline: none; }
+.portfolio .slick-arrow { border: none; color: transparent; position: absolute; width: 114px; height: 114px; right: 0; top: 50%; border-radius: 50%; background: #e8ecfe url(../img/arrow-right.png) center no-repeat; z-index: 100; outline: none; }
+.portfolio .slick-arrow.slick-prev { left: 0; right: auto; transform: rotate(180deg); background: #fbeff1 url(../img/arrow-right.png) center no-repeat; }
+.portfolio .tooltip { color: #fff; font-size: 20px; background: #1c48f3; width: 180px; line-height: 35px; position: absolute; top: -40px !important; left: 50% !important; text-align: center; margin-left: -85px; font-family: 'SegoeWP', arial, sans-serif; }
+.portfolio .tooltip::after { content: ""; width: 0; height: 0; border-style: solid; border-width: 9px 6px 0 6px; border-color: #1c48f3 transparent transparent transparent; position: absolute; left: 50%; margin-left: -8px; bottom: -9px; z-index: 0; }
+
 .approach { padding-bottom: 50px; max-width: 1600px; margin: 0 auto; background: url(../img/approach_txt-bg.jpg) 1039px 256px no-repeat; }
 .approach__container { max-width: 1200px; margin: 0 auto; display: table; clear: both; position: relative; }
 .approach__container::before { content: "S"; font-size: 900px; color: #1c48f3; opacity: 0.9; position: absolute; left: -342px; font-family: 'Didot-Bold', serif; top: -89px; }
