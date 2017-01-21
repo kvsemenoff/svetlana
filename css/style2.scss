@@ -10,6 +10,74 @@
  content: "";
  display: table;
 }
+.section__advantages{
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: 'SegoeWP';
+	.advantages{
+		max-width: 1200px;
+		margin: 0 auto;
+		position: relative;
+		&::before{
+			content: "";
+			position: absolute;
+			right: -200px;
+			bottom: 0;
+			width: 250px;
+			height: 250px;
+			background: #fbeff1;
+		}
+		&__inner{
+			float: left;
+			width: 45%;
+			&--right{
+				padding-top: 230px;
+				width: 55%;
+			}
+		}
+		.inner{
+			padding: 140px 30px 90px;
+			position: relative;
+			&::before{
+				content: "";
+				position: absolute;
+				width: 130px;
+				height: 108px;
+				background: url(../img/advantages_ic.png) 0 center no-repeat;
+				top: 20px;
+				left: 50%;
+				margin-left: -54px;
+			}
+			&--price::before{
+				background-position: -260px center;
+			}
+			&--pay::before{
+				background-position: -520px center;
+			}
+			&--online::before{
+				background-position: -130px center;
+			}
+			&--limit::before{
+				background-position: -390px center;
+			}
+			&__title{
+				color: #1c48f3;
+				font-size: 32px;
+				display: block;
+				font-family: 'SegoeWP-Semibold';
+				text-align: center;
+				padding-bottom: 20px;
+			}
+			&__txt{
+				text-align: center;
+				color: #333;
+				font-size: 26px;
+				line-height: 30px;
+			}
+		}
+	}
+}
+
 .section__scheme{
 	background: #1c48f3;
 	padding: 55px 0 220px!important;
@@ -18,6 +86,10 @@
 	font-family: 'SegoeWP'; 
 	position: relative;
 	overflow: hidden;
+	.contacts__title1,
+	.contacts__title2{
+		color: #fff;
+	}
 	&::before{
 		content: "";
 		width: 0;

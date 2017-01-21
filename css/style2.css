@@ -6,7 +6,22 @@
 @import url(fonts.css);
 .clearfix::after { clear: both; content: ""; display: table; }
 
+.section__advantages { max-width: 1920px; margin: 0 auto; font-family: 'SegoeWP'; }
+.section__advantages .advantages { max-width: 1200px; margin: 0 auto; position: relative; }
+.section__advantages .advantages::before { content: ""; position: absolute; right: -200px; bottom: 0; width: 250px; height: 250px; background: #fbeff1; }
+.section__advantages .advantages__inner { float: left; width: 45%; }
+.section__advantages .advantages__inner--right { padding-top: 230px; width: 55%; }
+.section__advantages .advantages .inner { padding: 140px 30px 90px; position: relative; }
+.section__advantages .advantages .inner::before { content: ""; position: absolute; width: 130px; height: 108px; background: url(../img/advantages_ic.png) 0 center no-repeat; top: 20px; left: 50%; margin-left: -54px; }
+.section__advantages .advantages .inner--price::before { background-position: -260px center; }
+.section__advantages .advantages .inner--pay::before { background-position: -520px center; }
+.section__advantages .advantages .inner--online::before { background-position: -130px center; }
+.section__advantages .advantages .inner--limit::before { background-position: -390px center; }
+.section__advantages .advantages .inner__title { color: #1c48f3; font-size: 32px; display: block; font-family: 'SegoeWP-Semibold'; text-align: center; padding-bottom: 20px; }
+.section__advantages .advantages .inner__txt { text-align: center; color: #333; font-size: 26px; line-height: 30px; }
+
 .section__scheme { background: #1c48f3; padding: 55px 0 220px !important; max-width: 1920px; margin: 0 auto; font-family: 'SegoeWP'; position: relative; overflow: hidden; }
+.section__scheme .contacts__title1, .section__scheme .contacts__title2 { color: #fff; }
 .section__scheme::before { content: ""; width: 0; height: 0; border-style: solid; border-width: 0 0 135px 1920px; border-color: transparent transparent #ffffff transparent; position: absolute; bottom: 0; right: 0; z-index: 100; }
 .section__scheme-decor { position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.2); width: 247px; height: 247px; bottom: -270px; left: 136px; z-index: 20; }
 .section__scheme-decor::before { z-index: 15; content: ""; background: rgba(255, 255, 255, 0.13); position: absolute; width: 425px; height: 425px; border-radius: 50%; top: -35%; left: -35%; }
