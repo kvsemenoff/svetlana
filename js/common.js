@@ -34,7 +34,7 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
-    $('.portfolio__slider').slick({
+    $('.slider').slick({
       infinite: true,
       speed: 300,
       slidesToShow: 1,

@@ -3,8 +3,8 @@
         <h2 class="contacts__title1">Portfolio</h2>
         <h2 class="contacts__title2">Портфолио</h2>
     </div>
-    <div class="portfolio clearfix">
-        <div class="portfolio__slider">
+    <div class="portfolio">
+        <div class="portfolio__slider slider">
             <div class="slide">
                 <div class="slide-wrap">
                     <div class="slide__img">
