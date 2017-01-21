@@ -1,2 +1,18 @@
-@import url(reset.css);@import url(style.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(fonts.css);
-/*# sourceMappingURL=style2.css.map */
+@import url(reset.css);
+@import url(style.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+.clearfix::after { clear: both; content: ""; display: table; }
+
+.approach { padding-bottom: 50px; max-width: 1600px; margin: 0 auto; background: url(../img/approach_txt-bg.jpg) 1039px 256px no-repeat; }
+.approach__container { max-width: 1200px; margin: 0 auto; display: table; clear: both; position: relative; }
+.approach__container::before { content: "S"; font-size: 900px; color: #1c48f3; opacity: 0.9; position: absolute; left: -342px; font-family: 'Didot-Bold', serif; top: -89px; }
+.approach__img { width: 370px; height: 370px; float: left; overflow: hidden; }
+.approach__img-photo { width: 100%; height: auto; min-height: 100%; display: block; }
+.approach__text { width: 700px; float: left; padding: 70px 0 20px 90px; background: url(../img/approach_quan.png) 90px 0 no-repeat; }
+.approach__txt { color: #333; font-size: 26px; padding-bottom: 25px; font-family: 'SegoeWP'; }
+.approach__link { display: inline-block; width: 41px; height: 41px; margin-right: 25px; background: url(../img/approach_ic.png) 0 0 no-repeat; }
+.approach__link--inst { background-position: -67px 0; }
+.approach__link--skype { background-position: -131px 0; }
