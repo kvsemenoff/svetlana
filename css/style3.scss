@@ -1,43 +1,45 @@
 
 
-h2.contacts__title1 {
-	opacity: 0.1;
-	color: #333;
-	font-family: "SegoeWP-Bold";
-	font-size: 100px;
-	font-weight: 700;
+
+
+.df-align{
 	text-align: center;
-	margin-bottom: 40px;
+	margin: 0 auto;
 }
+.df-all{
+	margin-top: 25px;
+	margin-bottom: 24px;
 
-h2.contacts__title2 {
-	color: #333;
-	font-family: "SegoeWP-Bold";
-	font-size: 48px;
-	font-weight: 700;
-	text-align: center;
-	margin-top: -90px;
-	padding-bottom: 60px;
 }
-
-
 .contacts__left {
 	background: #fbeff1;
-	float: left;
-	width: 544px;
+	// float: left;
+	display: inline-block;
+	max-width: 535px;
+	width: 100%;
+	text-align: left;
+	// margin-left: 208px;	
+	.df-ab{
+		position: absolute;
+		display: inline-block;
+		left: -30px;
+		top: -14px;
+	}
 	.contacts__left_list {
-		padding-left: 73px;
-		padding-top: 98px;
+		padding-left: 10px;
+		padding-top: 20px;
+		position: relative;
 		ul {
 		}
 		li:before {
         
 		}
 	    li {
-            padding-bottom: 23px;
-            padding-top: 23px;             
+            padding-bottom: 10px;
+            padding-top: 2px;
+            margin-bottom: 20px;             
             span {
-            	padding-left: 40px;
+            	padding-left: 52px;
             }
             a {
                 color: #333;	
@@ -48,42 +50,64 @@ h2.contacts__title2 {
 			font-weight: 400;             
 		}
 		li#vk {			
-			background: url("../img/dc-vk.png") no-repeat left center;
-	        padding-left: 15px;
+			background-image: url("../img/df-soc1.png");
+			background-position: left top 4px;
+			background-repeat: no-repeat;
+	        padding-left: 14px;
+	       
 		}
 		li#mail {			
-			background: url("../img/dc-mail.png") no-repeat left center;
-	        padding-left: 15px;
+			background-image: url("../img/df-soc2.png");
+			background-position: left top 4px;
+			background-repeat: no-repeat;
+	        padding-left: 14px;
+	      
 		}
 		li#phone {			
-			background: url("../img/dc-phone.png") no-repeat left center;
-	        padding-left: 15px;
+			background-image: url("../img/df-soc3.png");
+			background-position: left top 4px;
+			background-repeat: no-repeat;
+	        padding-left: 14px;
+	      
 		}
 		li#instagram {			
-			background: url("../img/dc-instagram.png") no-repeat left center;
-	        padding-left: 15px;
+			background-image: url("../img/df-soc4.png");
+			background-position: left top 4px;
+			background-repeat: no-repeat;
+	        padding-left: 14px;
+	        
 		}
 		li#skype {			
-			background: url("../img/dc-skype.png") no-repeat left center;
-	        padding-left: 15px;
+			background-image: url("../img/df-soc5.png");
+			background-position: left top 4px;
+			background-repeat: no-repeat;
+	        padding-left: 14px;
+	       
 		}
 		li#be {			
-			background: url("../img/dc-be.png") no-repeat left center;
-	        padding-left: 15px;
+			background-image: url("../img/df-soc6.png");
+			background-position: left top 4px;
+			background-repeat: no-repeat;
+	        padding-left: 14px;
+	       
 		}
 	}
 }
 
-.contacts__right {
-	float: left;
+.contacts__right {	
+	display: inline-block;
+	vertical-align: top;
 	max-width: 800px;
-	border: 10px solid #1c48f4;
-	margin-left: -68px;
-	margin-top: 34px;
-    padding-left: 95px;
-    padding-right: 133px;
+	width: 100%;
+	border: 8px solid #1c48f4;
+	margin-left: 0px;
+	margin-top: 27px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
 	.contacts__right_questions_title {
-		padding-top: 83px;
+		padding-top: 68px;
+		margin-bottom: 9px;
 		font-family: 'SegoeWP-Bold';
 		color: #333;		
 		font-size: 32px;
@@ -96,6 +120,8 @@ h2.contacts__title2 {
 		font-size: 26px;
 		font-weight: 400;
 		padding: 10px 0 -5px 25px;  
+		line-height: 32px;
+		letter-spacing: -0.2px;
 	}
 	input[type='text'] {
 		float: left;
@@ -108,30 +134,36 @@ h2.contacts__title2 {
 		color: #666666;
 		font-family: 'SegoeWP';
 		border: 1px solid #cccccc;
-		padding: 10px 0 0px 25px;  		
-		margin: 15px;
+		padding: 0px 0 0px 29px;
+		margin: 26px 29px 9px 0;
 	}
 	textarea {
 		resize: none;
 		color: #666666;
 		font-family: 'SegoeWP';
-		font-size: 20px;
-		padding: 10px 0 0px 25px;
-		width: 574px;
+		font-size: 20px;		
+		max-width: 574px;
+		width: 100%;
 		height: 148px;
-		margin: 15px;
+		// padding: 12px 0 0px 31px;
+		margin: 15px 0 0 0;
 	}
-	input[type='submit'] {
-		max-width: 304px;
+	.df-link{
+		width: 283px;
 		font-size: 20px;
 		font-family: 'SegoeWP-Semibold';
 		text-transform: uppercase;
-		border: none;
-		padding: 0px 2px;
-		border-radius: 25px;
-		margin: 15px;
-		height: 58px;
+		display: block;		
+		margin: 45px 0 74px 0;		
+		color:#333333;
+		background:none;
+		letter-spacing: -0.3px;
+		padding: 0px 20px 0 0 ;	
+		background-image: url("../img/df-right.png");
+		background-repeat: no-repeat;
+		background-position: right center; 		
 	}
+
 }
 
 @media only screen and (min-width : 320px) {
@@ -147,6 +179,30 @@ h2.contacts__title2 {
 }
 
 @media only screen and (min-width : 1248px) {
+	.df-align{
+		text-align: left;
+		margin: 0 auto;
+	}
+	.df-all{
+		margin-top: 70px;
+		margin-bottom: 64px;
+	}
+	.contacts__left {			
+		margin-left: 208px;
+		.contacts__left_list {
+			padding-left: 70px;
+			padding-top: 96px;
+		}	
+	}
+	.contacts__right {			
+		margin-left: -41px;
+		margin-top: 27px;
+		padding-left: 93px;
+		padding-right: 100px;
+			textarea {			
+			padding: 12px 0 0px 31px;			
+		}
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
