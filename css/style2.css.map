@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,sBAAW;AACX,sBAAW;AACX,uBAAY;AACZ,uBAAY;AACZ,uBAAY;AACZ,sBAAW",
+"mappings": "AAAQ,sBAAW,CACX,sBAAW,CACX,uBAAY,CACZ,uBAAY,CACZ,uBAAY,CACZ,sBAAW",
 "sources": ["style2.scss"],
 "names": [],
 "file": "style2.css"

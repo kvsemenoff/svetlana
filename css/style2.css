@@ -4,5 +4,75 @@
 @import url(style3.css);
 @import url(style4.css);
 @import url(fonts.css);
+.clearfix::after { clear: both; content: ""; display: table; }
 
-/*# sourceMappingURL=style2.css.map */
+.section__advantages { max-width: 1920px; margin: 0 auto; font-family: 'SegoeWP'; }
+.section__advantages .advantages { max-width: 1200px; margin: 0 auto; position: relative; }
+.section__advantages .advantages::before { content: ""; position: absolute; right: -200px; bottom: 0; width: 250px; height: 250px; background: #fbeff1; }
+.section__advantages .advantages__inner { float: left; width: 45%; }
+.section__advantages .advantages__inner--right { padding-top: 230px; width: 55%; }
+.section__advantages .advantages .inner { padding: 140px 30px 90px; position: relative; }
+.section__advantages .advantages .inner::before { content: ""; position: absolute; width: 130px; height: 108px; background: url(../img/advantages_ic.png) 0 center no-repeat; top: 20px; left: 50%; margin-left: -54px; }
+.section__advantages .advantages .inner--price::before { background-position: -260px center; }
+.section__advantages .advantages .inner--pay::before { background-position: -520px center; }
+.section__advantages .advantages .inner--online::before { background-position: -130px center; }
+.section__advantages .advantages .inner--limit::before { background-position: -390px center; }
+.section__advantages .advantages .inner__title { color: #1c48f3; font-size: 32px; display: block; font-family: 'SegoeWP-Semibold'; text-align: center; padding-bottom: 20px; }
+.section__advantages .advantages .inner__txt { text-align: center; color: #333; font-size: 26px; line-height: 30px; }
+
+.section__scheme { background: #1c48f3; padding: 55px 0 220px !important; max-width: 1920px; margin: 0 auto; font-family: 'SegoeWP'; position: relative; overflow: hidden; }
+.section__scheme .contacts__title1, .section__scheme .contacts__title2 { color: #fff; }
+.section__scheme::before { content: ""; width: 0; height: 0; border-style: solid; border-width: 0 0 135px 1920px; border-color: transparent transparent #ffffff transparent; position: absolute; bottom: 0; right: 0; z-index: 100; }
+.section__scheme-decor { position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.2); width: 247px; height: 247px; bottom: -270px; left: 136px; z-index: 20; }
+.section__scheme-decor::before { z-index: 15; content: ""; background: rgba(255, 255, 255, 0.13); position: absolute; width: 425px; height: 425px; border-radius: 50%; top: -35%; left: -35%; }
+.section__scheme-decor::after { z-index: 10; content: ""; background: rgba(255, 255, 255, 0.09); position: absolute; width: 605px; height: 605px; border-radius: 50%; top: -70%; left: -73%; }
+.section__scheme-decor-2 { position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.04); width: 800px; height: 800px; bottom: -570px; left: -136px; z-index: 20; }
+
+.scheme { margin: 0 auto; max-width: 1300px; position: relative; }
+.scheme .slider { padding: 0 80px; position: relative; }
+.scheme .slider::before { content: ""; background: #f3f3f4; opacity: 0.1; width: 445px; height: 445px; border-radius: 50%; position: absolute; right: 100px; top: 0px; }
+.scheme .slide__img { width: 569px; height: 468px; float: left; overflow: hidden; }
+.scheme .slide__img-photo { width: 100%; height: auto; min-height: 100%; }
+.scheme .text { float: left; width: 560px; padding: 30px; text-align: center; color: #fff; }
+.scheme .text__stage { display: block; font-family: 'SegoeWP-Bold'; font-size: 60px; padding-bottom: 10px; }
+.scheme .text__title { display: block; font-size: 32px; line-height: 34px; padding-bottom: 15px; font-family: 'SegoeWP-Bold'; }
+.scheme .text__in { max-width: 450px; font-size: 26px; line-height: 28px; letter-spacing: -0.5px; margin: 0 auto; }
+.scheme .condition { color: #fff; padding-left: 90px; max-width: 1200px; }
+.scheme .condition__time { font-size: 32px; font-family: 'SegoeWP-Bold'; padding-bottom: 10px; display: block; }
+.scheme .condition__fast { font-size: 26px; padding-bottom: 30px; }
+.scheme .condition__pay { font-size: 24px; display: block; font-family: 'SegoeWP-SemiLight'; }
+.scheme .slick-slide { outline: none; }
+.scheme .slick-arrow { border: none; color: transparent; position: absolute; width: 114px; height: 114px; right: 0; top: 50%; border-radius: 50%; background: url(../img/arrow-right-white.png) center no-repeat; z-index: 100; outline: none; }
+.scheme .slick-arrow.slick-prev { left: 0; right: auto; transform: rotate(180deg); background: url(../img/arrow-right-white.png) center no-repeat; }
+
+.portfolio { padding-bottom: 50px; max-width: 1600px; margin: 0 auto; }
+.portfolio__slider { position: relative; }
+.portfolio__slider::before { content: ""; background: #fbeff1; width: 630px; height: 470px; position: absolute; right: 160px; top: 200px; }
+.portfolio .slide-wrap { width: 1070px; margin: 0 auto; outline: none; position: relative; }
+.portfolio .slide__img { width: 1000px; height: 508; padding: 50px 0; }
+.portfolio .slide__img-photo { width: 100%; min-height: 100%; height: auto; display: block; }
+.portfolio .slide .text { color: #333; border: 6px solid #1c48f3; padding: 50px 60px; max-width: 970px; margin: 0 auto; position: relative; }
+.portfolio .slide .text__descr { font-size: 20px; display: block; text-align: center; text-transform: capitalize; font-family: 'SegoeWP', arial, sans-serif; padding-bottom: 20px; }
+.portfolio .slide .text__title { font-size: 32px; text-align: center; position: relative; font-family: 'SegoeWP-Bold'; padding-bottom: 20px; }
+.portfolio .slide .text__title::before { content: ""; height: 3px; width: 56px; background: #fe918c; position: absolute; left: 50%; margin-left: -28px; bottom: 0; }
+.portfolio .slide .text__in { font-family: 'SegoeWP', arial, sans-serif; font-size: 26px; text-align: center; padding: 20px 0; }
+.portfolio .slide .text__about { display: block; text-align: center; font-size: 20px; font-family: 'SegoeWP', arial, sans-serif; }
+.portfolio .slide .text__link { display: block; position: absolute; width: 40px; height: 30px; right: 70px; bottom: 22px; background: url(../img/portfolio-text_ic.png) center no-repeat; outline: none; }
+.portfolio__link { text-align: center; margin-top: 80px; }
+.portfolio__link a { text-transform: uppercase; font-size: 20px; color: #333; font-family: 'SegoeWP-Semibold'; display: inline-block; padding-right: 50px; background: url(../img/arrow-right.png) center right no-repeat; }
+.portfolio .slick-slide { outline: none; }
+.portfolio .slick-arrow { border: none; color: transparent; position: absolute; width: 114px; height: 114px; right: 0; top: 50%; border-radius: 50%; background: #e8ecfe url(../img/arrow-right.png) center no-repeat; z-index: 100; outline: none; }
+.portfolio .slick-arrow.slick-prev { left: 0; right: auto; transform: rotate(180deg); background: #fbeff1 url(../img/arrow-right.png) center no-repeat; }
+.portfolio .tooltip { color: #fff; font-size: 20px; background: #1c48f3; width: 180px; line-height: 35px; position: absolute; top: -40px !important; left: 50% !important; text-align: center; margin-left: -85px; font-family: 'SegoeWP', arial, sans-serif; }
+.portfolio .tooltip::after { content: ""; width: 0; height: 0; border-style: solid; border-width: 9px 6px 0 6px; border-color: #1c48f3 transparent transparent transparent; position: absolute; left: 50%; margin-left: -8px; bottom: -9px; z-index: 0; }
+
+.approach { padding-bottom: 50px; max-width: 1600px; margin: 0 auto; background: url(../img/approach_txt-bg.jpg) 1039px 256px no-repeat; }
+.approach__container { max-width: 1200px; margin: 0 auto; display: table; clear: both; position: relative; }
+.approach__container::before { content: "S"; font-size: 900px; color: #1c48f3; opacity: 0.9; position: absolute; left: -342px; font-family: 'Didot-Bold', serif; top: -89px; }
+.approach__img { width: 370px; height: 370px; float: left; overflow: hidden; }
+.approach__img-photo { width: 100%; height: auto; min-height: 100%; display: block; }
+.approach__text { width: 700px; float: left; padding: 70px 0 20px 90px; background: url(../img/approach_quan.png) 90px 0 no-repeat; }
+.approach__txt { color: #333; font-size: 26px; padding-bottom: 25px; font-family: 'SegoeWP'; }
+.approach__link { display: inline-block; width: 41px; height: 41px; margin-right: 25px; background: url(../img/approach_ic.png) 0 0 no-repeat; }
+.approach__link--inst { background-position: -67px 0; }
+.approach__link--skype { background-position: -131px 0; }
