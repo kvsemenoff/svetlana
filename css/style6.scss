@@ -1,5 +1,38 @@
+.section_padding-db-view{
+	background: url("../img/db-footer-fon.jpg");
+	background-size: cover;
+	color:#fff;
+	text-align: center;
+	font-family: "SegoeWP";
+	font-size: 18px;
+	a{
+		color:white;
+		
+		position: relative;
+	}
+	a:after{
+		position: absolute;
+		bottom:-10px;
+		left:0;
+		width:40px;
+		content:"";
+		border-bottom: 3px solid #1c48f3;
 
+	}
+	a:hover:after{
+	width:100%;
+	transition:0.7s;
+	}
+	p{
+		line-height: 40px;
+	}
+}
 
+.db-footer-right{
+	span{
+	font-family: 'SegoeWP-Bold';
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -12,6 +45,13 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section_padding-db-view{
+	padding:50px 0;
+	text-align: left;
+}
+.db-footer-left{
+	
+}
 }
 
 @media only screen and (min-width : 1248px) {
