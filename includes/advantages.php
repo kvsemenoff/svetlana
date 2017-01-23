@@ -8,7 +8,7 @@
         </h2>
     </div>
     <div class="advantages clearfix">
-        <div class="advantages__inner advantages__inner--left">
+        <div class="advantages__inner col-sm-7 advantages__inner--left">
             <div class="inner inner--design">
                 <span class="inner__title">Продающий дизайн</span>
                 <p class="inner__txt">Предлагаю максимально эффективные решения. Не штампую дизайн под одну гребенку, используя один шаблон на все темы. Создаю уникальный дизайн, который решает задачи бизнеса.</p>
@@ -22,7 +22,7 @@
                 <p class="inner__txt">Вы можете оплатить услуги любым удобным способом: перевод на карту, ндекс.Деньги, WebMoney, PayPal. А также возможно оформление договора и перевод денег на расчетный счет.</p>
             </div>
         </div>
-        <div class="advantages__inner advantages__inner--right">
+        <div class="advantages__inner advantages__inner--right col-sm-5">
             <div class="inner inner--online">
                 <span class="inner__title">Всегда на связи</span>
                 <p class="inner__txt">Всегда на связи и оперативно отвечаю на запросы. Работаю и в будни, и в выходные, и в праздники. Мне важно ваше мнение и в моих же интересах сохранить добрые отношения с клиентами, чтобы вы пришли ко мне снова.</p>

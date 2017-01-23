@@ -9,6 +9,7 @@
 	max-width: 1920px;
 	margin: 0 auto;
 	font-family: 'SegoeWP';
+	overflow: hidden;
 	.advantages{
 		max-width: 1200px;
 		margin: 0 auto;
@@ -161,8 +162,8 @@
 	}
 	.slide{
 		&__img{
-			width: 569px;
-			height: 468px;
+			max-width: 569px;
+			max-height: 468px;
 			float: left;
 			overflow: hidden;
 			&-photo{
@@ -174,7 +175,7 @@
 	}
 	.text{
 		float: left;
-		width: 560px;
+		max-width: 560px;
 		padding: 30px;
 		text-align: center;
 		color: #fff;
@@ -260,14 +261,13 @@
 	}
 	.slide{
 		&-wrap{
-			width: 1070px;
+			max-width: 1070px;
 			margin: 0 auto;
 			outline: none;
 			position: relative;
 		}
 		&__img{
-			width: 1000px;
-			height: 508;
+			max-width: 1000px;
 			padding: 50px 0;
 			&-photo{
 				width: 100%;
@@ -414,6 +414,7 @@
 			left: -342px;
 			font-family: 'Didot-Bold', serif;
 			top: -89px;
+			z-index: 100;
 		}
 	}
 	&__img{
@@ -421,6 +422,7 @@
 		height: 370px;
 		float: left;
 		overflow: hidden;
+		margin: 0 auto 30px;
 		&-photo{
 			width: 100%;
 			height: auto;
@@ -429,9 +431,10 @@
 		}
 	}
 	&__text{
-		width: 700px;
+		max-width: 700px;
 		float: left;
 		padding: 70px 0 20px 90px;
+		z-index: 1000;
 		background: url(../img/approach_quan.png) 90px 0 no-repeat;
 	}
 	&__txt{
@@ -454,20 +457,50 @@
 		}
 	}
 }
+.scheme .slick-slide{
+	overflow: hidden;
+}
 
 @media only screen and (min-width : 320px) {
 }
 
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (max-width : 768px) {
+	.section_portfolio{
+		padding: 25px 15px!important;
+	}
+	.scheme .condition{
+		padding: 0 15px;
+	}
+	.approach__text{
+		padding: 40px 15px 20px 20px;
+	}
+	.scheme .text__stage{
+		font-size: 40px;
+	}
+	.scheme .text__title{
+		font-size: 22px;
+	}
+	.scheme .text__in{
+		font-size: 18px;
+	}
 }
 
-@media only screen and (min-width : 992px) {
+@media only screen and (max-width : 992px) {
+	.section__advantages .advantages__inner{
+		width: 100%;
+	}
+	.advantages__inner--right{
+		padding-top: 0!important;
+	}
 }
 
-@media only screen and (min-width : 1248px) {
+@media only screen and (max-width : 1248px) {
+	.portfolio .slick-arrow{
+		top: 0%;
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
