@@ -39,6 +39,7 @@ h2{
 	text-align: center;
 	font-family: 'SegoeWP-Bold';
 	z-index: 5;
+	letter-spacing: -0.3px;
 }
 input[type="submit"]{
 	font-size: 20px;
@@ -48,8 +49,8 @@ input[type="submit"]{
 	transition:0.5s;
 	text-transform: uppercase;
 	border: none;
-	padding: 0px 55px;
-	border-radius: 25px;
+	padding: 6px 70px;
+	border-radius: 30px;
 }
 
 input[type="submit"]:hover{
@@ -78,7 +79,7 @@ input[type="text"]{
 	.section_padding{
 		padding: 55px 0px;
 	}
-	h1{
+	h2.eng{
 		display: block;
 	}
 }
