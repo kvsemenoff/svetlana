@@ -18,12 +18,6 @@
 	font-family: 'SegoeWP-Semibold';
 	font-size: 10px;
 }
-.dd-element-padding{
-	padding-left: 58px;
-}
-.dd-element-padding-2{
-	padding-left: 38px;
-}
 .dd-tel-style{
 	color: #333;
 	font-size: 10px;
@@ -31,16 +25,59 @@
 }
 .dd-ico{
 	position:absolute;
-	right:55px;
+	right: 9px;
 	top:60px;
 	display: inline-block;
-	outline:1px solid red;
+	cursor:pointer;
+}
+.dd-dis-none{
+	display:none;
+}
+.dd-min-menu-wrap{
+	padding: 40px;
+	position:absolute;
+	right:10px;
+	top:12px;
+	border:2px solid #2D55F3;
+	text-align:center;
+	z-index:999;
+	background: #fff;
+	display:none;
+	position:fixed;
+	li{
+		text-align: center;
+		a{
+			font-family: 'SegoeWP-Bold';
+			text-transform: uppercase;
+			font-size: 10px;
+			color:#333333;
+		}
+		a:hover{
+			color:#1C48F3;
+		}
+	}
+}
+.dd-close{
+	position:relative;
+	.dd-position-close{
+		cursor: pointer;
+		position:absolute;
+		right: -30px;
+		top:-34px;
+	}
 }
 
-
-
-
-
+//Контент шапки
+.dd-contnet-header{
+	max-width:650px;
+	margin: 0 auto;
+} 
+.dd-content-header-txt{
+	span:first-child{
+		font-family: 'SegoeWP-Black';
+		font-size: 23px;
+	}
+}
 
 
 
@@ -64,16 +101,53 @@
 }
 
 @media only screen and (min-width : 768px) {
+	
 
-	.dd-element{
-		float: left;
-	}
 }
 
 @media only screen and (min-width : 992px) {
+
 }
 
 @media only screen and (min-width : 1248px) {
+	.dd-element{
+		float: left;
+	}
+	.dd-element-padding{
+		padding-left: 58px;
+	}
+	.dd-element-padding-2{
+		padding-left: 38px;
+	}
+	.dd-menu-element{
+		float: right;
+		.dd-element_style{
+			margin-right: 65px;
+		}
+	}
+	.dd-dis-none{
+		display:block;
+	}
+	.dd-ico{
+		right:55px;
+	}
+	.dd-padding-top{
+		padding-top: 7px;
+	}
+	.dd-min-menu-wrap{
+		width:350px;
+		padding-top: 200px;
+		padding-bottom: 160px;
+	}
+	.dd-close{
+		.dd-position-close{
+			right:-24px;
+			top:-172px;
+		}
+	}
+	.ml-tel{
+		padding-left: 250px;
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
