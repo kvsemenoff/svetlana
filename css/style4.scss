@@ -6,7 +6,9 @@
 	padding: 60px 53px;
 	text-align:center;
 	position: relative;
-	outline:1px solid red;
+	width: 100%;
+	background-size: cover; 
+	// outline:1px solid red;
 }
 .dd-logo{
 	img{
@@ -16,11 +18,11 @@
 .dd-element_style{
 	color: #333;
 	font-family: 'SegoeWP-Semibold';
-	font-size: 10px;
+	font-size: 17px;
 }
 .dd-tel-style{
 	color: #333;
-	font-size: 10px;
+	font-size: 17px;
 	font-family: 'SegoeWP-Bold';
 }
 .dd-ico{
@@ -49,7 +51,7 @@
 		a{
 			font-family: 'SegoeWP-Bold';
 			text-transform: uppercase;
-			font-size: 10px;
+			font-size: 16px;
 			color:#333333;
 		}
 		a:hover{
@@ -69,18 +71,59 @@
 
 //Контент шапки
 .dd-contnet-header{
-	max-width:650px;
+	// max-width:1159px;
+	position:relative;
+	max-width:518px;
 	margin: 0 auto;
 } 
 .dd-content-header-txt{
+	text-align:center;
+	margin-top: 100px;
+	padding-bottom: 25px;
 	span:first-child{
 		font-family: 'SegoeWP-Black';
 		font-size: 23px;
 	}
+	span:last-child{
+		font-family: 'SegoeWP';
+		font-size: 13px;
+	}
 }
 
-
-
+// Кнопки
+.dd-header-button{
+	padding-bottom: 25px;
+	text-align:center;
+	a{
+		margin-left: -20px;
+		display: inline-block;
+		font-family: 'SegoeWP-Semibold';
+		font-size: 20px;
+		border: 2px solid #ccc;
+		border-radius: 31px;
+		width: 235px;
+		padding-top: 17px;
+		padding-bottom: 17px;
+		text-transform: uppercase;
+		color: #333;
+	}
+	a:hover{
+		border:2px solid #1C48F3;
+		background: #1C48F3;
+		color:#fff;
+	}
+	.active{
+		border:2px solid #1C48F3;
+		background: #1C48F3;
+		color:#fff;
+	}
+}
+.dd-f1-wrap{
+	display:none;
+}
+.dd-f2-wrap{
+	display:none;
+}
 
 
 
@@ -98,11 +141,29 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.dd-header-button{
+		a{
+			margin-left: 0;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
-	
-
+	.dd-header-button{
+		float:left;
+	}
+	.dd-content-header-txt{
+		text-align: left;
+		span:first-child{
+			font-size: 35px;
+		}
+		span:last-child{
+			font-size: 20px;
+		}
+	}
+	.dd-header-button2{
+		margin-left: 36px;
+	}	
 }
 
 @media only screen and (min-width : 992px) {
@@ -110,14 +171,16 @@
 }
 
 @media only screen and (min-width : 1248px) {
-	.dd-element{
-		float: left;
+	.dd-contnet-header{
+		max-width:1159px;
+		height: 545px;
 	}
-	.dd-element-padding{
-		padding-left: 58px;
+	.dd-min-menu-wrap{
+		border:none;
 	}
-	.dd-element-padding-2{
-		padding-left: 38px;
+	.dd-top-header{
+		background: url(../img/bigger.jpg) no-repeat top center;
+		background-size:cover; 
 	}
 	.dd-menu-element{
 		float: right;
@@ -127,9 +190,6 @@
 	}
 	.dd-dis-none{
 		display:block;
-	}
-	.dd-ico{
-		right:55px;
 	}
 	.dd-padding-top{
 		padding-top: 7px;
@@ -147,6 +207,54 @@
 	}
 	.ml-tel{
 		padding-left: 250px;
+	}
+	.dd-content-header-txt{
+		margin-top: 253px;
+		// outline: 1px solid red;
+	}
+	.dd-content-header-txt{
+		padding-bottom: 59px;
+		position:relative;
+		span:first-child{
+			font-size: 45px;
+		}
+		span:last-child{
+			font-size: 25px;
+		}
+
+	}
+	.dd-all-none{
+		display: none;
+	}
+	.dd-ico{
+		display: none;
+	}
+	.dd-ico2{
+		display: block;
+		position:absolute;
+		right:55px;
+		top:60px;
+		display: inline-block;
+		cursor:pointer;
+	}
+	.dd-f1-wrap{
+		position:absolute;
+		background: url(../img/f1.png) no-repeat top center;
+		width: 247px;
+		height: 200px;
+		z-index: 10;
+		top:-65px;
+		left:-140px;
+		display:block;
+	}
+	.dd-z-index{
+		z-index:999;
+	}
+	.dd-f2-wrap{
+		position:absolute;
+		display:block;
+		left:0;
+		bottom:-186px;
 	}
 }
 
