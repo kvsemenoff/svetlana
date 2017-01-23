@@ -1,6 +1,10 @@
 {
 "version": 3,
+<<<<<<< HEAD
 "mappings": "AAAA,wBAAwB,CACvB,UAAU,CAAE,+BAA+B,CAC3C,eAAe,CAAE,KAAK,CACtB,KAAK,CAAC,IAAI,CACV,UAAU,CAAE,MAAM",
+=======
+"mappings": "AAAQ,sBAAW,CACX,sBAAW,CACX,uBAAY,CACZ,uBAAY,CACZ,uBAAY,CACZ,sBAAW",
+>>>>>>> f619b9716ddafc47cff3a49fa11e282f70a75ff1
 "sources": ["style2.scss"],
 "names": [],
 "file": "style2.css"

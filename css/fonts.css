@@ -76,3 +76,9 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Didot-Bold';
+  src:url(../fonts/Didot/ufonts.com_didot-bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
