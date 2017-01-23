@@ -11,7 +11,6 @@
 					&copy;2017 Все права защищены<br>
 					Политика конфиденциальности <br>
 					<a href="#">Скачать презентацию</a>
-				
 				</p>
 			</div>
 			<div class="col-md-3">
@@ -26,10 +25,11 @@
 				<p class="db-footer-right">
 					<span>+7-910-394-46-64</span><br>
 					Заказать звонок<br>
-					<a href="#">Скачать бриф</a>
+					<a href="#" name="modal">Скачать бриф</a>
 				
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
+
