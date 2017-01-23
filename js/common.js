@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-    $('.dd-ico, .dd-ico2').click(function(){
+    $('.dd-ico, .dd-ico2, .dd-ico3').click(function(){
         $('.dd-min-menu-wrap').show(500);
     });
     $('.dd-close').click(function(){
