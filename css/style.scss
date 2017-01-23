@@ -34,7 +34,7 @@ h2.eng{
 	opacity: 0.1;
 }
 h2{
-	font-size: 48px;
+	font-size: 40px;
 	color:#333333;
 	text-align: center;
 	font-family: 'SegoeWP-Bold';
@@ -81,6 +81,9 @@ input[type="text"]{
 	}
 	h2.eng{
 		display: block;
+	}
+	h2{
+		font-size: 48px;		
 	}
 }
 
