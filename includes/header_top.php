@@ -60,7 +60,7 @@
 			<a href="#">Заказать звонок</a>
 		</div>
 	</div>
-<<<<<<< HEAD
+
 	<div class="dd-f1-wrap"></div>
 	<div class="dd-header-button ">
 		<a class="active" href="#">Портфолио</a>
@@ -69,7 +69,5 @@
 		<a href="#log-in" name="modal" >Заказать звонок</a>
 	</div>
 </div>
-=======
->>>>>>> 890959b92f052d0e65743d3eeda624d2005037d3
 </section>
 
