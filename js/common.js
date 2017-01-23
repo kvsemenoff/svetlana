@@ -9,9 +9,6 @@ $(document).ready(function(){
         $('.dd-min-menu-wrap').hide(500);
     });
 
-<<<<<<< HEAD
-});
-=======
     $('.slider').slick({
       infinite: true,
       speed: 300,
@@ -42,6 +39,6 @@ $(document).ready(function(){
     });
 
  });
->>>>>>> f619b9716ddafc47cff3a49fa11e282f70a75ff1
+
 
 
