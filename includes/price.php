@@ -6,7 +6,7 @@
 			<div class="df-price df-price_view">
 				<div class="df-price__bg-box df-price__bg-box_view">
 					<span class="df-price__t1 df-price__t1_view">Дизайн-макет</span>
-					<span class="df-price__t2 df-price__t2_view">13 500 Р–</span>
+					<span class="df-price__t2 df-price__t2_view">13 500</span>
 					<span class="df-price__t3 df-price__t3_view">Разработка дизайн-макета</span>
 				</div>
 				<div class="df-price__textblock df-price__textblock_view">
@@ -25,7 +25,7 @@
 			<div class="df-price df-price_view">
 				<div class="df-price__bg-box df-price__bg-box_view df-bg2">
 					<span class="df-price__t1 df-price__t1_view">Стандарт</span>
-					<span class="df-price__t2 df-price__t2_view">17 500 Р–</span>
+					<span class="df-price__t2 df-price__t2_view">17 500</span>
 					<span class="df-price__t3 df-price__t3_view">Разработка landing Page</span>
 				</div>
 				<div class="df-price__textblock df-price__textblock_view">
@@ -47,7 +47,7 @@
 			<div class="df-price df-price_view">
 				<div class="df-price__bg-box df-price__bg-box_view">
 					<span class="df-price__t1 df-price__t1_view">Расширенный</span>
-					<span class="df-price__t2 df-price__t2_view">22 300 Р–</span>
+					<span class="df-price__t2 df-price__t2_view">22 300</span>
 					<span class="df-price__t3 df-price__t3_view">Разработка landing Page</span>
 				</div>
 				<div class="df-price__textblock df-price__textblock_view">
