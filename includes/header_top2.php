@@ -30,7 +30,7 @@
 
 <div class="dd-min-menu-wrap">
 	<div class="dd-close">
-		<div class="dd-position-close">
+		<div class="dd-position-close df-dd">
 			<img src="img/close.png" alt="">
 		</div>
 	</div>
@@ -43,22 +43,6 @@
 		<li><a href="#">06<br> Этапы и сроки</a></li>
 		<li><a href="#">07<br> контакты</a></li>
 	</ul>
-</div>
-<div class="dd-contnet-header">
-	<div class="dd-content-header-txt dd-z-index">
-
-		<span>Современные Landing Page</span><br>
-		<span>Сильный дизайн. Приемлемая цена. Точно в срок.</span>
-		
-
-	</div>
-	<div class="dd-f1-wrap"></div>
-	<div class="dd-header-button ">
-		<a class="active" href="#">Портфолио</a>
-	</div>
-	<div class="dd-header-button dd-header-button2">
-		<a href="#log-in" name="modal" >Заказать звонок</a>
-	</div>
 </div>
 </section>
 

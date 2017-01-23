@@ -33,3 +33,52 @@
 	</div>
 </section>
 
+<div id="mask"></div>
+
+<div class="df-popup window" id="log-in">
+	<a href="#"  class="dd-close"><img src="img/df-close.png" alt=""></a>
+	<h4 class="df-h4_view">Закажите звонок</h4>
+	<span class="dftext ">Введите ваше имя и телефон. И я свяжусь с вами, чтобы	ответить на ваши вопросы.</span>
+	<form class="form1" action="#" method="post">
+		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
+		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
+		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
+	</form>
+</div>
+
+
+<div class="df-popup df-popup2 window" id="log-in1">
+	<a href="#"  class="dd-close"><img src="img/df-close.png" alt=""></a>
+	<h4 class="df-h4_view">Закажите «Дизайн-макет»</h4>
+	<span class="dftext ">И получите продающий PSD макет сайта европейского уровня</span>
+	<form class="form1" action="#" method="post">
+		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
+		<input class="dfinp" type="text" placeholder="Ваш телефон"><br>
+		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
+		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
+	</form>
+</div>
+<div class="df-popup df-popup2 window" id="log-in2">
+	<a href="#"  class="dd-close"><img src="img/df-close.png" alt=""></a>
+	<h4 class="df-h4_view">Закажите пакет «Стандарт»</h4>
+	<span class="dftext ">И получите продающий сайт европейского уровня</span>
+	<form class="form1" action="#" method="post">
+		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
+		<input class="dfinp" type="text" placeholder="Ваш телефон"><br>
+		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
+		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
+	</form>
+</div>
+<div class="df-popup df-popup2 window" id="log-in3">
+	<a href="#"  class="dd-close"><img src="img/df-close.png" alt=""></a>
+	<h4 class="df-h4_view">Закажите пакет «Расширенный»</h4>
+	<span class="dftext ">И получите продающий сайт с анимацией и эффектами</span>
+	<form class="form1" action="#" method="post">
+		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
+		<input class="dfinp" type="text" placeholder="Ваш телефон"><br>
+		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
+		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
+	</form>
+</div>
+
+

@@ -56,12 +56,12 @@
                 	Задайте их мне в форме ниже и нажмите отправить сообщение. А можете написать в ВК, на почту или просто позвонить)
             	</div>		            	
             </div>
-        	<form class="contacts__right_questions" method="POST">
+        	<form class="contacts__right_questions form1" method="post">
     		    <input type="text" name="name" placeholder="Ваше имя">
     		    <input type="text" name="email" placeholder="Ваш e-mail"><br>
                 <div class="clearfix"></div>
     			<textarea placeholder="Текст сообщения"></textarea><br>
-        		<a href="#" class="df-link">ОТПРАВИТЬ СООБЩЕНИЕ</a>
+        		<input type="submit" class="df-link" name="submit" value="ОТПРАВИТЬ СООБЩЕНИЕ">
         	</form>
         </div>
     </div>

@@ -18,7 +18,7 @@
 					<div class="df-price__boxmiddle df-price__boxmiddle_view">
 						<span>На выходе вы получите продающий PSD макет 
 						лендинга</span> <br>
-						<input type="submit" value="Заказать" class="df-price__input df-price__input_view">
+						<a href="#log-in1" name="modal" class="submit df-price__input df-price__input_view">Заказать</a>
 					</div>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 					Установка сайта на хостинг
 					<div class="df-price__boxmiddle df-price__boxmiddle_view">
 						<span>На выходе вы получите продающий сайт</span> <br>
-						<input type="submit" value="Заказать" class="df-price__input df-price__input_view">
+						<a  href="#log-in2" name="modal" class="submit df-price__input df-price__input_view">Заказать</a>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 					<div class="df-price__boxmiddle df-price__boxmiddle_view">
 						<span>На выходе вы получите продающий сайт с анимацией
 						и эффектами</span> <br>
-						<input type="submit" value="Заказать" class="df-price__input df-price__input_view">
+						<a  href="#log-in3" name="modal" class="submit df-price__input df-price__input_view">Заказать</a>
 					</div>
 				</div>
 			</div>
