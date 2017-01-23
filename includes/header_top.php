@@ -1,20 +1,21 @@
 <section class="dd-top-header">
-	<div class="dd-all-none">
-		<div class="dd-element dd-logo">
+	
+		<!-- <div class="dd-element dd-logo">
 			<img class="img-responsive" src="img/logo.png" alt="">
-		</div>
-		<div class="dd-element dd-element_style dd-element-padding-2 dd-padding-top">
+		</div> -->
+		<div class="dd-element dd-element_style dd-element-padding-2">
 			<span>Веб-дизайнер Светлана Свежая</span>
 		</div>
-		<div class="dd-element dd-element_style dd-element-padding dd-padding-top">
+		<div class="dd-element dd-element_style dd-element-padding">
 			<span>Работаю по всей России и странам СНГ</span>
 		</div>
-		<div class="dd-element dd-tel-style dd-padding-top ml-tel">
+		
+
+	<div class="dd-menu-element">
+		<div class="dd-element dd-tel-style ml-tel">
 			<span>+7-910-394-46-64</span>
 		</div>
-	</div>
-	<div class="dd-menu-element dd-padding-top">
-		<div class="dd-element dd-element_style dd-dis-none dd-all-none">
+		<div class="dd-element dd-element_style dd-dis-none">
 			<span>Меню</span>
 		</div>
 		<div class="dd-ico">
@@ -55,9 +56,6 @@
 		<div class="dd-header-button dd-header-button2">
 			<a href="#">Заказать звонок</a>
 		</div>
-	</div>
-	<div class="dd-f2-wrap">
-		<img src="img/f2.png" alt="">
 	</div>
 </section>
 
