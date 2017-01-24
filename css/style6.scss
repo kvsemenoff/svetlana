@@ -10,7 +10,10 @@
 		
 		position: relative;
 	}
-	a:after{
+	a.blink{
+		
+	}
+	a.blink:after{
 		position: absolute;
 		bottom:-10px;
 		left:0;
@@ -19,7 +22,7 @@
 		border-bottom: 3px solid #1c48f3;
 
 	}
-	a:hover:after{
+	a.blink:hover:after{
 	width:100%;
 	transition:0.7s;
 	}

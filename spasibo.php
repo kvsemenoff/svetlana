@@ -14,11 +14,14 @@
 				на создание дизайна визитки <br>
 				и бесплатный аудит вашего сайта.</span>
 				<div class="vidjet">
-					<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>		
-					<div id="vk_groups"></div>
-					<script type="text/javascript">
-					VK.Widgets.Group("vk_groups", {mode: 3, width: "auto"}, 20003922);
-					</script>
+					<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
+
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3, width: "570", color3: '1C48F3'}, 123630349);
+</script>
+
 				</div>
 			</div>
 		</div>

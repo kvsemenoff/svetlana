@@ -1,2 +1,34 @@
-.section_padding-db-view{background:url("../img/db-footer-fon.jpg");background-size:cover;color:#fff;text-align:center;font-family:"SegoeWP";font-size:18px}.section_padding-db-view a{color:white;position:relative}.section_padding-db-view a:after{position:absolute;bottom:-10px;left:0;width:40px;content:"";border-bottom:3px solid #1c48f3}.section_padding-db-view a:hover:after{width:100%;transition:0.7s}.section_padding-db-view p{line-height:40px}.section_padding-db-view p img{margin:0 auto}.db-footer-right span{font-family:'SegoeWP-Bold'}@media only screen and (min-width: 992px){.section_padding-db-view{padding:50px 0;text-align:left}}
+.section_padding-db-view {
+  background: url("../img/db-footer-fon.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-family: "SegoeWP";
+  font-size: 18px; }
+  .section_padding-db-view a {
+    color: white;
+    position: relative; }
+  .section_padding-db-view a.blink:after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 40px;
+    content: "";
+    border-bottom: 3px solid #1c48f3; }
+  .section_padding-db-view a.blink:hover:after {
+    width: 100%;
+    transition: 0.7s; }
+  .section_padding-db-view p {
+    line-height: 40px; }
+    .section_padding-db-view p img {
+      margin: 0 auto; }
+
+.db-footer-right span {
+  font-family: 'SegoeWP-Bold'; }
+
+@media only screen and (min-width: 992px) {
+  .section_padding-db-view {
+    padding: 50px 0;
+    text-align: left; } }
+
 /*# sourceMappingURL=style6.css.map */

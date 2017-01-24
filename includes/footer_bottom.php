@@ -9,8 +9,8 @@
 			<div class="col-md-3">
 				<p>
 					&copy;2017 Все права защищены<br>
-					Политика конфиденциальности <br>
-					<a href="#">Скачать презентацию</a>
+					<a href="/files/Politika_konfidentsialnosti_sl2.pdf">Политика конфиденциальности</a> <br>
+					<a href="/files/svetlana_svezhaya_presentation.pdf"  target="_blank" class="blink">Скачать презентацию</a>
 				</p>
 			</div>
 			<div class="col-md-3">
@@ -24,8 +24,8 @@
 			<div class="col-md-3">
 				<p class="db-footer-right">
 					<span>+7-910-394-46-64</span><br>
-					Заказать звонок<br>
-					<a href="#" name="modal">Скачать бриф</a>
+					<a href="#log-in" name="modal">Заказать звонок</a><br>
+					<a href="/files/svezhaya_landing-page_brif_3.docx" target="_blank" class="blink">Скачать бриф</a>
 				
 				</p>
 			</div>
