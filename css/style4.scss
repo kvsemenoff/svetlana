@@ -255,6 +255,32 @@
 		padding-bottom: 25px;
 	}
 }
+.dd-box{
+	margin-bottom: 128px;
+}
+.dd-zagruzit{
+	text-align:center;
+	a{
+		display: inline-block;
+		font-family: 'SegoeWP-Semibold';
+		text-transform: uppercase;
+		font-size: 20px;
+		color:#333;
+		padding-right: 55px;
+		background: url(../img/strelka.png) no-repeat right center;
+	}
+}
+
+// Кнопка Наверх
+#toTop {
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:20px;
+cursor:pointer;
+display:none;
+z-index:9999;
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -307,18 +333,22 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+}
+
+@media only screen and (min-width : 1248px) {
 	.dd-inner-main-wrap{
 		position:relative;
 		height: 578px;
 		.dd-inner-img{
 			float: right;
 			z-index: 10;
-			margin-right: -20px;
+			margin-right: -55px;
 		}
 		.dd-inner-img2{
 			float: left;
 			z-index: 10;
-			margin-left: -20px;
+			margin-left: -55px;
 		}
 		.dd-title{
 			padding-bottom: 19px;
@@ -341,7 +371,6 @@
 			top:0;
 			text-align: right;
 			width: 482px;
-			outline: 1px solid red;
 			z-index: 9999;
 		}
 	}
@@ -358,11 +387,26 @@
 			width: 19px;
 			height: 13px;
 			right:0;
+			bottom:30px;
 		}
 	}
-}
-
-@media only screen and (min-width : 1248px) {
+	.dd-txt2{
+		span:last-child{
+			display: block;
+			position:relative;
+			width: 397px;
+		}
+		span:last-child:after{
+			content:"";
+			position:absolute;
+			background: url(../img/strel.png) no-repeat;
+			width: 19px;
+			height: 13px;
+			left:0;
+			bottom:30px;
+		}
+	}
+	////////
 	.dd-element-padding{
 		padding-left: 60px;
 	}
@@ -394,11 +438,12 @@
 		width:350px;
 		padding-top: 200px;
 		padding-bottom: 160px;
+		z-index: 9999;
 	}
 	.dd-close{
 		.dd-position-close{
-			right:-24px;
-			top:-172px;
+			right:-14px;
+			top:-21px;
 		}
 	}
 	.ml-tel{

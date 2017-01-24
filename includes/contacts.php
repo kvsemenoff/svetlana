@@ -1,4 +1,4 @@
-<section class="section section_padding section_padding-dc_contacts_view df-align">
+<section class="section section_padding section_padding-dc_contacts_view df-align" id="contacts">
     <div class="contacts__title">
         <h2 class="eng">
             Contacts

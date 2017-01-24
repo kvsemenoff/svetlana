@@ -17,14 +17,14 @@
 				<img src="img/close.png" alt="">
 			</div>
 		</div>
-		<ul>
-			<li><a href="#">01<br> Главная</a></li>
-			<li><a href="#">02<br> Портфолио</a></li>
-			<li><a href="#">03<br> Обо мне</a></li>
-			<li><a href="#">04<br> Преимущества</a></li>
-			<li><a href="#">05<br> Стоимость</a></li>
-			<li><a href="#">06<br> Этапы и сроки</a></li>
-			<li><a href="#">07<br> контакты</a></li>
+		<ul id="js-nav2">
+			<li><a href="/#header">01<br> Главная</a></li>
+			<li><a href="/#portfolio">02<br> Портфолио</a></li>
+			<li><a href="/#about">03<br> Обо мне</a></li>
+			<li><a href="/#advantages">04<br> Преимущества</a></li>
+			<li><a href="/#price">05<br> Стоимость</a></li>
+			<li><a href="/#sheme">06<br> Этапы и сроки</a></li>
+			<li><a href="/#contacts">07<br> контакты</a></li>
 		</ul>
 	</div>
 	<div class="container">
@@ -40,7 +40,7 @@
 	</div>
 </section>
 
-<section>
+<section class="dd-box">
 	<div class="container">
 		<div class="dd-inner-main-wrap">
 			<div class="dd-inner-txt-wrap">
@@ -67,10 +67,9 @@
 	</div>
 </section>
 
-<section>
+<section class="dd-box">
 	<div class="container">
 		<div class="dd-inner-main-wrap">
-			
 			<div class=" dd-inner-txt-wrap2">
 				<div class="dd-title">
 					<span>Дизайн макет</span>
@@ -93,3 +92,120 @@
 		</div>
 	</div>
 </section>
+
+<section class="dd-box">
+	<div class="container">
+		<div class="dd-inner-main-wrap">
+			<div class="dd-inner-txt-wrap">
+				<div class="dd-title">
+					<span>Многостраничный сайт</span>
+				</div>
+				<div class="dd-title-next zz-index">
+					<a href="#">Питомник кошек.</a>
+				</div>
+				<div class="dd-txt">
+					<span>Задача: создать сайт для питомника персидских и экзотических кошек. Сделать простую легкую композицию, подобрать цвета, написать тексты.
+					</span>
+					<span>
+						Сделано по пакету «Расширенный»
+					</span>
+				</div>
+			</div>
+			<div class="dd-inner-img">
+				<a href="#"><img class="img-responsive" src="img/montik3.png" alt=""></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+<section class="dd-box">
+	<div class="container">
+		<div class="dd-inner-main-wrap">
+			<div class=" dd-inner-txt-wrap2">
+				<div class="dd-title">
+					<span>Landing Page</span>
+				</div>
+				<div class="dd-title-next zz-index">
+					<a href="#">Мастерская десертов.</a>
+				</div>
+				<div class="dd-txt dd-txt2">
+					<span>Задача – создать сайт по теме «Продажа домашней выпечки в современном исполнении». Создать внутреннюю страницу каталога всех товаров и карточку товара.
+					</span>
+					<span>
+						Сделано по пакету «Расширенный»
+					</span>
+				</div>
+			</div>
+			<div class="dd-inner-img dd-inner-img2">
+				<a href="#"><img class="img-responsive" src="img/montik4.png" alt=""></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+<section class="dd-box">
+	<div class="container">
+		<div class="dd-inner-main-wrap">
+			<div class="dd-inner-txt-wrap">
+				<div class="dd-title">
+					<span>Дизайн макет</span>
+				</div>
+				<div class="dd-title-next zz-index">
+					<a href="#">Автосервис.</a>
+				</div>
+				<div class="dd-txt">
+					<span>Задача: сделать редизайн главной страницы сайта для компании, занимающейся ремонтом и обслуживанием автомобилей, а также продажей качественных автозапчастей.
+					</span>
+					<span>
+						Сделано по пакету «Дизайн-макет»
+					</span>
+				</div>
+			</div>
+			<div class="dd-inner-img">
+				<a href="#"><img class="img-responsive" src="img/montik5.png" alt=""></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+<section class="dd-box">
+	<div class="container">
+		<div class="dd-inner-main-wrap">
+			<div class=" dd-inner-txt-wrap2">
+				<div class="dd-title">
+					<span>Дизайн макет</span>
+				</div>
+				<div class="dd-title-next zz-index">
+					<a href="#">Авиакомпания.</a>
+				</div>
+				<div class="dd-txt dd-txt2">
+					<span>Задача: сделать редизайн сайта авиакомпании Utair. Оптимизировать страницу с точки зрения сценариев пользователя. Усилить визуальную составляющую сайта, улучшить верстку. 
+					</span>
+					<span>
+						Сделано по пакету «Дизайн-макет»
+					</span>
+				</div>
+			</div>
+			<div class="dd-inner-img dd-inner-img2">
+				<a href="#"><img class="img-responsive" src="img/montiklast.png" alt=""></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+<section class="dd-box">
+	<div class="container">
+		<div class="dd-zagruzit">
+			<a href="#">Загрузить еще работы</a>
+		</div>
+	</div>
+</section>
+
+<div id="toTop" >
+	<img src="img/top.png" alt="">
+</div>
+

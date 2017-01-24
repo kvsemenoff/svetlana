@@ -10,5 +10,7 @@
 <?php require_once('includes/footer_bottom.php'); ?>
 <?php require_once('includes/footer.php'); ?>
 
-	
+	<div id="toTop" >
+	<img src="img/top.png" alt="">
+</div>
 

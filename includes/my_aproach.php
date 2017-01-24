@@ -1,4 +1,4 @@
-<section class="section section_padding section_approach">
+<section class="section section_padding section_approach" id="about">
     <div class="contacts__title">
         <h2 class="contacts__title1">
             My approach

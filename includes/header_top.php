@@ -1,4 +1,4 @@
-<section class="dd-top-header">
+<section class="dd-top-header" id="header">
 	<div class="container pl-none">
 		<!-- <div class="dd-element dd-logo">
 			<img class="img-responsive" src="img/logo.png" alt="">
@@ -34,14 +34,14 @@
 				<img src="img/close.png" alt="">
 			</div>
 		</div>
-		<ul>
-			<li><a href="#">01<br> Главная</a></li>
-			<li><a href="#">02<br> Портфолио</a></li>
-			<li><a href="#">03<br> Обо мне</a></li>
-			<li><a href="#">04<br> Преимущества</a></li>
-			<li><a href="#">05<br> Стоимость</a></li>
-			<li><a href="#">06<br> Этапы и сроки</a></li>
-			<li><a href="#">07<br> контакты</a></li>
+		<ul id="js-nav">
+			<li><a href="#header">01<br> Главная</a></li>
+			<li><a href="#portfolio">02<br> Портфолио</a></li>
+			<li><a href="#about">03<br> Обо мне</a></li>
+			<li><a href="#advantages">04<br> Преимущества</a></li>
+			<li><a href="#price">05<br> Стоимость</a></li>
+			<li><a href="#sheme">06<br> Этапы и сроки</a></li>
+			<li><a href="#contacts">07<br> контакты</a></li>
 		</ul>
 	</div>
 	<div class="dd-contnet-header">

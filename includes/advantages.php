@@ -1,4 +1,4 @@
-<section class="section section_padding section__advantages">
+<section class="section section_padding section__advantages" id="advantages">
     <div class="contacts__title">
         <h2 class="contacts__title1">
             Advantages

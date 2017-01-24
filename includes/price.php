@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section class="section section_padding" id="price">
 	<div class="df-container">
 		<h2 class="eng">Pricing Table</h2>
 		<h2>Стоимость реализации ваших идей</h2>

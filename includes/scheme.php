@@ -1,4 +1,4 @@
-<section class="section section_padding section__scheme">
+<section class="section section_padding section__scheme" id="sheme">
     <div class="contacts__title">
         <h2 class="contacts__title1">
             Scheme of work
