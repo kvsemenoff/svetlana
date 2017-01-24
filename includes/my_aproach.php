@@ -1,9 +1,9 @@
 <section class="section section_padding section_approach" id="about">
     <div class="contacts__title">
-        <h2 class="contacts__title1">
+        <h2 class="eng">
             My approach
         </h2>
-        <h2 class="contacts__title2">
+        <h2>
             Мой подход
         </h2>
     </div>

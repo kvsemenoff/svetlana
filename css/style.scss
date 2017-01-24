@@ -33,6 +33,7 @@ h2.eng{
 	z-index: 1;
 	opacity: 0.1;
 }
+
 h2{
 	font-size: 40px;
 	color:#333333;
@@ -40,6 +41,11 @@ h2{
 	font-family: 'SegoeWP-Bold';
 	z-index: 5;
 	letter-spacing: -0.3px;
+}
+h2.h2_white{
+	
+	color:#fff;
+
 }
 .submit{
 	font-size: 20px;

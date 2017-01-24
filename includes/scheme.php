@@ -1,9 +1,9 @@
 <section class="section section_padding section__scheme" id="sheme">
     <div class="contacts__title">
-        <h2 class="contacts__title1">
+        <h2 class="eng h2_white">
             Scheme of work
         </h2>
-        <h2 class="contacts__title2">
+        <h2 class="h2_white">
             Схема работы и сроки
         </h2>
     </div>
