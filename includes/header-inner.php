@@ -48,7 +48,7 @@
 					<span>Landing Page</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Организация свадеб</a>
+					<a href="#">Организация свадеб.</a>
 				</div>
 				<div class="dd-txt">
 					<span>Задача: создать сайт для компании,<br> занимающейся организацией<br>
@@ -61,6 +61,33 @@
 			</div>
 			<div class="dd-inner-img">
 				<a href="#"><img class="img-responsive" src="img/montik-1.png" alt=""></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="dd-inner-main-wrap">
+			
+			<div class=" dd-inner-txt-wrap2">
+				<div class="dd-title">
+					<span>Дизайн макет</span>
+				</div>
+				<div class="dd-title-next zz-index">
+					<a href="#">Развитие бизнеса.</a>
+				</div>
+				<div class="dd-txt dd-txt2">
+					<span>Задача: сделать редизайн главной страницы сайта, упорядочить верстку, убрать лишние графические элементы, проработать визуалку при этом сохранить текстовый контент.
+					</span>
+					<span>
+						Сделано по пакету «Дизайн-макет»
+					</span>
+				</div>
+			</div>
+			<div class="dd-inner-img dd-inner-img2">
+				<a href="#"><img class="img-responsive" src="img/montik2.png" alt=""></a>
 			</div>
 			<div class="clearfix"></div>
 		</div>

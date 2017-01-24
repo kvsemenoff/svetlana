@@ -315,6 +315,11 @@
 			z-index: 10;
 			margin-right: -20px;
 		}
+		.dd-inner-img2{
+			float: left;
+			z-index: 10;
+			margin-left: -20px;
+		}
 		.dd-title{
 			padding-bottom: 19px;
 		}
@@ -327,6 +332,16 @@
 			text-align: left;
 			width: 482px;
 			// outline: 1px solid red;
+			z-index: 9999;
+		}
+		.dd-inner-txt-wrap2{
+			padding-top: 136px;
+			position:absolute;
+			right: 0 !important;
+			top:0;
+			text-align: right;
+			width: 482px;
+			outline: 1px solid red;
 			z-index: 9999;
 		}
 	}
