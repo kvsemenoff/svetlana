@@ -53,7 +53,7 @@
 	<span class="dftext ">И получите продающий PSD макет сайта европейского уровня</span>
 	<form class="form1" action="#" method="post">
 		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
-		<input class="dfinp" type="text" placeholder="Ваш телефон"><br>
+		<input class="dfinp phone" type="text" name="phone" placeholder="Ваш телефон"><br>
 		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
 		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
 	</form>
@@ -64,7 +64,7 @@
 	<span class="dftext ">И получите продающий сайт европейского уровня</span>
 	<form class="form1" action="#" method="post">
 		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
-		<input class="dfinp" type="text" placeholder="Ваш телефон"><br>
+		<input class="dfinp phone" type="text" name="phone" placeholder="Ваш телефон"><br>
 		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
 		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
 	</form>
@@ -75,7 +75,7 @@
 	<span class="dftext ">И получите продающий сайт с анимацией и эффектами</span>
 	<form class="form1" action="#" method="post">
 		<input class="dfinp" type="text" placeholder="Ваше имя"><br>
-		<input class="dfinp" type="text" placeholder="Ваш телефон"><br>
+		<input class="dfinp phone" type="text" name="phone" placeholder="Ваш телефон"><br>
 		<input class="dfinp" type="text" placeholder="Ваш e-mail"><br>
 		<input type="submit" class="df-link" name="submit" value="Заказать звонок">
 	</form>

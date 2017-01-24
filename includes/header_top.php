@@ -57,17 +57,11 @@
 			<a class="active" href="#">Портфолио</a>
 		</div>
 		<div class="dd-header-button dd-header-button2">
-			<a href="#">Заказать звонок</a>
+			<a href="#log-in" name="modal" >Заказать звонок</a>
 		</div>
 	</div>
 
-	<div class="dd-f1-wrap"></div>
-	<div class="dd-header-button ">
-		<a class="active" href="#">Портфолио</a>
-	</div>
-	<div class="dd-header-button dd-header-button2">
-		<a href="#log-in" name="modal" >Заказать звонок</a>
-	</div>
-</div>
+	
+
 </section>
 
