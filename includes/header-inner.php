@@ -34,7 +34,7 @@
 				<span>Увеличьте продажи с помощью дизайна</span>
 			</div>
 			<div class="button-inner">
-				<a href="#">Заказать звонок</a>
+				<a href="#log-in" name="modal">Заказать звонок</a>
 			</div>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 					<span>Landing Page</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Организация свадеб.</a>
+					<span>Организация свадеб.</span>
 				</div>
 				<div class="dd-txt">
 					<span>Задача: создать сайт для компании,<br> занимающейся организацией<br>
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			<div class="dd-inner-img">
-				<a href="#"><img class="img-responsive" src="img/montik-1.png" alt=""></a>
+				<img class="img-responsive" src="img/montik-1.png" alt="">
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -75,7 +75,7 @@
 					<span>Дизайн макет</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Развитие бизнеса.</a>
+					<span>Развитие бизнеса.</span>
 				</div>
 				<div class="dd-txt dd-txt2">
 					<span>Задача: сделать редизайн главной страницы сайта, упорядочить верстку, убрать лишние графические элементы, проработать визуалку при этом сохранить текстовый контент.
@@ -86,7 +86,7 @@
 				</div>
 			</div>
 			<div class="dd-inner-img dd-inner-img2">
-				<a href="#"><img class="img-responsive" src="img/montik2.png" alt=""></a>
+				<img class="img-responsive" src="img/montik2.png" alt="">
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -101,7 +101,7 @@
 					<span>Многостраничный сайт</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Питомник кошек.</a>
+					<span>Питомник кошек.</span>
 				</div>
 				<div class="dd-txt">
 					<span>Задача: создать сайт для питомника персидских и экзотических кошек. Сделать простую легкую композицию, подобрать цвета, написать тексты.
@@ -112,7 +112,7 @@
 				</div>
 			</div>
 			<div class="dd-inner-img">
-				<a href="#"><img class="img-responsive" src="img/montik3.png" alt=""></a>
+				<img class="img-responsive" src="img/montik3.png" alt="">
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -127,7 +127,7 @@
 					<span>Landing Page</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Мастерская десертов.</a>
+					<span>Мастерская десертов.</span>
 				</div>
 				<div class="dd-txt dd-txt2">
 					<span>Задача – создать сайт по теме «Продажа домашней выпечки в современном исполнении». Создать внутреннюю страницу каталога всех товаров и карточку товара.
@@ -138,7 +138,7 @@
 				</div>
 			</div>
 			<div class="dd-inner-img dd-inner-img2">
-				<a href="#"><img class="img-responsive" src="img/montik4.png" alt=""></a>
+				<img class="img-responsive" src="img/montik4.png" alt="">
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -153,7 +153,7 @@
 					<span>Дизайн макет</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Автосервис.</a>
+					<span>Автосервис.</span>
 				</div>
 				<div class="dd-txt">
 					<span>Задача: сделать редизайн главной страницы сайта для компании, занимающейся ремонтом и обслуживанием автомобилей, а также продажей качественных автозапчастей.
@@ -164,7 +164,7 @@
 				</div>
 			</div>
 			<div class="dd-inner-img">
-				<a href="#"><img class="img-responsive" src="img/montik5.png" alt=""></a>
+				<img class="img-responsive" src="img/montik5.png" alt="">
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -179,7 +179,7 @@
 					<span>Дизайн макет</span>
 				</div>
 				<div class="dd-title-next zz-index">
-					<a href="#">Авиакомпания.</a>
+					<span>Авиакомпания.</span>
 				</div>
 				<div class="dd-txt dd-txt2">
 					<span>Задача: сделать редизайн сайта авиакомпании Utair. Оптимизировать страницу с точки зрения сценариев пользователя. Усилить визуальную составляющую сайта, улучшить верстку. 
@@ -190,7 +190,7 @@
 				</div>
 			</div>
 			<div class="dd-inner-img dd-inner-img2">
-				<a href="#"><img class="img-responsive" src="img/montiklast.png" alt=""></a>
+				<img class="img-responsive" src="img/montiklast.png" alt="">
 			</div>
 			<div class="clearfix"></div>
 		</div>

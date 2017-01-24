@@ -216,7 +216,7 @@
 }
 .dd-title-next{
 	margin-bottom: 22px;
-	a{
+	span{
 		display: inline-block;
 		color:#333333;
 		font-family: 'SegoeWP-Bold';
@@ -225,7 +225,7 @@
 		position:relative;
 		padding-bottom: 27px;
 	}
-	a:after{
+	span:after{
 		content: "";
 		position:absolute;
 		width: 50px;
@@ -233,10 +233,10 @@
 		bottom:0;
 		left:0;
 	}
-	a:hover:after{
-		width: 100%;
-		transition: 0.7s;
-	}
+	// a:hover:after{
+	// 	width: 100%;
+	// 	transition: 0.7s;
+	// }
 }
 .dd-txt{
 	span{
